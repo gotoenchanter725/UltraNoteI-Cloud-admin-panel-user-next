@@ -1,0 +1,66 @@
+.walletActivityHeader {
+  background: #fff;
+  padding: 44px 100px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.04);
+  @media (max-width: 991px) {
+    padding: 15px;
+  }
+  .wActivityMenus {
+    text-align: right;
+    @media (max-width: 500px) {
+        text-align: left;
+    }
+    >div{
+      display: block;
+      >div{
+        width: auto;
+      }
+    }
+    .tabItem {
+      font-family: Hind Vadodara;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #bababa;
+      min-width: auto;
+      letter-spacing: 0;
+      text-transform: capitalize;
+      margin-left: 30px;
+      @media (max-width: 500px) {
+        margin-left: auto;
+        margin-right: 20px;
+      }
+      &.tabSelected {
+        color: #5e55e6;
+      }
+      span{
+        padding: 0;
+      }
+    }
+  }
+}
+.walletActivityBody {
+  background: #fff;
+  padding: 44px 100px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.04);
+  @media (max-width: 991px) {
+    padding: 15px;
+  }
+  table {
+    tbody {
+      tr {
+        td {
+          p {
+            width: 100%;
+            max-width: 200px;
+            word-break: break-word;
+          }
+        }
+      }
+    }
+  }
+}
+.indicatorHide {
+  display: none !important;
+}

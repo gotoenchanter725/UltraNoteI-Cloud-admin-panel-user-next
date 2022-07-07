@@ -1,0 +1,61 @@
+.qrResults {
+  .qrImage {
+    max-width: 100%;
+  }
+  .generateNewAdress {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #666666;
+    letter-spacing: 0;
+    margin: 20px 0 30px !important;
+    border-bottom: 1px solid #666;
+    display: inline-block;
+    line-height: 19px;
+    cursor: pointer;
+  }
+  .addressList {
+    .addressTable{
+      @media (max-width: 500px) {
+        overflow-x: auto;
+      }
+    }
+    .disableBtn {
+      background: #dadada;
+      color: #797979;
+    }
+    table {
+      margin-top: 20px;
+      thead {
+        tr {
+          th {
+            background: #6258fb;
+            font-family: Hind Vadodara;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #ffffff;
+            padding-top: 20px;
+            padding-bottom: 20px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            font-family: Hind Vadodara;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: #666666;
+            border-color: #F8F8F8;
+            padding-top: 20px;
+            padding-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}

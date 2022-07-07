@@ -1,0 +1,50 @@
+.tabsContent2 {
+  background: #fff;
+  padding: 44px 100px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.04);
+}
+.walletTabsBar {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  background: #fff !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  flex-direction: inherit !important;
+  align-items: center;
+  padding-left: 100px;
+  @media (min-width: 992px) and (max-width: 1200px) {
+    padding-left: 50px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding-left: 20px;
+  }
+  @media (max-width: 767px) {
+    padding-left: 15px;
+    display: block!important;
+    padding-bottom: 15px;
+  }
+  .sWalletTitle {
+    flex-basis: 20%;
+    font-family: Hind Vadodara;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6258fb;
+    @media (min-width: 768px) and (max-width: 991px) {
+        font-size: 18px;
+    }
+  }
+  .tabsWrapper {
+    flex-basis: 80%;
+    @media (max-width: 767px) {
+      margin-bottom: 20px;
+    }
+  }
+  .btn{
+    margin-right: 10px;
+    i{
+      margin-right: 5px;
+    }
+  }
+}

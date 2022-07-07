@@ -1,0 +1,14 @@
+.singleWalletWithdraw {
+  .inputStyleBasic {
+    textarea {
+      min-height: 150px;
+    }
+    .inputIcon{
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: -1;
+    }
+  }
+}

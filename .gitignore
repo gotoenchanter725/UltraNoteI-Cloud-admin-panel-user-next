@@ -1,0 +1,6 @@
+Admin/node_modules/
+Admin/Backend-admin/node_modules/
+.env
+Users/node_modules/
+Users/Backend/node_modules/
+Users/cryptwallet/node_modules/

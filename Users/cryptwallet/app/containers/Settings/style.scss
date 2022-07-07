@@ -1,0 +1,86 @@
+.settingsArea {
+  margin-top: -230px;
+  margin-bottom: 100px;
+  @media (min-width: 992px) and (max-width: 1200px) {
+    margin-bottom: 90px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 80px;
+  }
+  @media (max-width: 767px) {
+    margin-bottom: 70px;
+  }
+  .settingsBody {
+    background: #fff;
+    padding: 44px 70px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.04);
+    @media (max-width: 991px) {
+      padding: 30px 15px;
+    }
+    .section-title {
+      margin-bottom: 40px;
+    }
+  }
+  .setAuthentication {
+    .subTitle {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #444444;
+      letter-spacing: 0;
+      margin-top: 20px;
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 31px;
+      color: #666666;
+      margin-top: 20px;
+    }
+    .formSubmitBtn {
+      margin-top: 30px;
+    }
+    .swtichCheck {
+      margin-top: 20px;
+      label {
+        margin: 0;
+      }
+    }
+  }
+  .preferenceSettings {
+    .selectInputField {
+      label {
+        font-weight: 600;
+      }
+    }
+    .formSubmitBtn{
+      margin-top: 20px;
+    }
+  }
+}
+.selectInputField {
+  margin-top: 7px;
+  margin-bottom: 20px;
+  .inputSelectStyle {
+    margin-top: 25px;
+    height: 56px;
+    border: 1px solid rgba(183, 180, 180, 0.87);
+    border-radius: 4px;
+    > div > div {
+      height: 100%;
+      line-height: 50px;
+      padding: 0;
+      padding-left: 11px;
+    }
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+}
+
+button:disabled {
+  color: white !important;
+}

@@ -1,0 +1,83 @@
+.card {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.04);
+}
+
+.victoryPieArea {
+  position: relative;
+  .victoryPieCenterLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #666666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.VictoryContainer {
+  tspan {
+    font-size: 8px !important;
+  }
+}
+.victoryPieTitle {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #666666;
+  span {
+    color: #1ca9ee;
+  }
+}
+.barController {
+  text-align: right;
+  @media (max-width: 767px) {
+      text-align: center;
+  }
+  button {
+    display: inline-block;
+    background: transparent;
+    font-family: Hind Vadodara;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    letter-spacing: 0;
+    &:hover {
+      background: transparent;
+    }
+    p {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background: #dff3ff;
+      margin-right: 5px;
+      transform: translateY(2px);
+    }
+    &.withDraw {
+      p {
+        background: #5e55e6;
+      }
+    }
+  }
+}
+
+.lineChart {
+  button {
+    p {
+      background: #1CA8EE;
+    }
+    &.withDraw {
+      p {
+        background: #F8A2C1;
+      }
+    }
+  }
+}

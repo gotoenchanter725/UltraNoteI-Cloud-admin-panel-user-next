@@ -1,0 +1,97 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 50px;
+    color: #eb8153;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #eb8153;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #eb8153;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .profile-image {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -25px;
+    right: 125px;
+    border-radius: 50%;
+  }
+  .google-auth-icon {
+    width: 300px;
+    height: 250px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .mav-item-width {
+      width: 100%;
+    }
+    .profile-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      top: -12px;
+      right: 37px;
+    }
+    .google-auth-icon {
+      width: 150px;
+      height: 150px;
+    }
+    .google-auth-on-off {
+      right: 25px;
+    }
+    .switch {
+      right: 25px;
+    }
+  }
+  

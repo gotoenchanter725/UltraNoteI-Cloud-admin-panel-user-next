@@ -1,0 +1,38 @@
+.inputStyle{
+  //height: 40px;
+}
+.modalInner{
+  .modalCardBody{
+    padding: 50px;
+    @media (max-width: 767px) {
+      padding: 15px;
+    }
+    .mcsInput{
+      margin-top: 7px;
+      margin-bottom: 20px;
+      .inputSelectStyle{
+        margin-top: 25px;
+        height: 56px;
+        border: 1px solid rgba(183, 180, 180, 0.87);
+        border-radius: 4px;
+        >div>div{
+          height: 100%;
+          line-height: 50px;
+          padding: 0;
+          padding-left: 11px;
+        }
+        &:before,
+        &:after{
+          display: none;
+        }
+      }
+    }
+    .input{
+      margin-bottom: 30px;
+      margin-top: 10px;
+      input{
+        height: 21px;
+      }
+    }
+  }
+}

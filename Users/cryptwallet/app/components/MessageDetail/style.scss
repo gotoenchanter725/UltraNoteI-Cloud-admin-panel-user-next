@@ -1,0 +1,75 @@
+.inputStyle{
+  //height: 40px;
+}
+.modalInner{
+  .modalCardBody{
+    padding: 50px;
+    @media (max-width: 767px) {
+      padding: 15px;
+    }
+    .mcsInput{
+      margin-top: 7px;
+      margin-bottom: 20px;
+      .inputSelectStyle{
+        margin-top: 25px;
+        height: 56px;
+        border: 1px solid rgba(183, 180, 180, 0.87);
+        border-radius: 4px;
+        >div>div{
+          height: 100%;
+          line-height: 50px;
+          padding: 0;
+          padding-left: 11px;
+        }
+        &:before,
+        &:after{
+          display: none;
+        }
+      }
+    }
+    .input{
+      margin-bottom: 30px;
+      margin-top: 10px;
+      input{
+        height: 21px;
+      }
+    }
+    .message {
+      display: flex;
+    }
+    .message-label {
+      width: 120px;
+    }
+    .message-body {
+      width: 410px;
+      word-break: break-word;
+    }
+    .bold {
+      font-weight: 600;
+    }
+    .btnMsg{
+      margin-top: 20px;
+      background: #6258fb;
+      border-radius: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      color: #fff;
+      left: 0;
+      width: auto;
+      padding: 0.5rem;
+      text-transform: capitalize;
+      font-weight: 500;
+      font-family: Hind Vadodara;
+      position: relative;
+      margin-bottom: 10px;
+      &:disabled {
+        background: #ccc;
+        color: #666 !important;
+        cursor: none;
+      }
+    }
+    .pull-right {
+      float: right;
+    }
+  }
+}

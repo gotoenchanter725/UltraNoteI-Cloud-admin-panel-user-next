@@ -1,0 +1,100 @@
+.billingWrapper {
+  margin-top: -230px;
+  margin-bottom: 100px;
+  @media (min-width: 992px) and (max-width: 1200px) {
+    margin-bottom: 90px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 80px;
+  }
+  @media (max-width: 767px) {
+    margin-bottom: 80px;
+  }
+  .billingTabsBar {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    background: #fff !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+    @media (max-width: 767px) {
+      padding-left: 15px;
+      display: block!important;
+      padding-bottom: 15px;
+    }
+    .billingTitle {
+      flex-basis: 20%;
+      font-family: Hind Vadodara;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: #6258fb;
+      @media (min-width: 768px) and (max-width: 991px) {
+          font-size: 18px;
+      }
+    }
+    .tabsWrapper {
+      flex-basis: 80%;
+      @media (max-width: 767px) {
+        margin-bottom: 20px;
+      }
+    }
+    .btn{
+      margin-right: 10px;
+      i{
+        margin-right: 5px;
+      }
+    }
+  }
+  
+  .billingBody {
+    background: #fff;
+    padding: 44px 70px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.04);
+    @media (min-width: 768px) and (max-width: 991px) {
+      padding: 30px 15px;
+    }
+    @media (max-width: 767px) {
+      padding: 30px 15px;
+    }
+    .billingHeader {
+      margin-bottom: 40px;
+    }
+    .walletMenus {
+      text-align: right;
+      @media (max-width: 500px) {
+        text-align: left;
+        margin-top: 10px;
+      }
+      button {
+        margin-left: 14px;
+        @media (max-width: 500px) {
+          margin-left: auto;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+.actionBtns {
+  display: flex;
+  li {
+    padding: 0;
+    margin-right: 20px;
+    width: auto;
+    cursor: pointer;
+    display: inline-block;
+  
+    .btnWidth {
+      width: auto !important;
+    }
+  }
+}
+
+.tabsContent2 {
+  background: #fff;
+  padding: 44px 100px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.04);
+}
+

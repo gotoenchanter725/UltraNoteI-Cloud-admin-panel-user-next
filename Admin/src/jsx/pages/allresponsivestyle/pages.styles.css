@@ -1,0 +1,15 @@
+
+.chapcha-position {
+padding: 0px 60px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.chapcha-position {
+padding:0px 0px 0px 0px;  
+margin-right:10px;
+
+}
+
+
+}

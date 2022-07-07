@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box!important;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-size: 15px;
+  line-height: 26px;
+  font-family: 'Hind Vadodara', sans-serif !important;
+  font-weight: 400;
+  color: #666 !important;
+  background: #f5f4ff !important;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    font-family: 'Hind Vadodara', sans-serif !important;
+    font-weight: 600 !important;
+  }
+  #app {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #444 !important;
+    }
+    .btn {
+      height: 40px;
+      border: 1px solid #1ca8ee;
+      background: #1ca8ee;
+      width: 115px;
+      font-family: 'Hind Vadodara', sans-serif !important;
+      &:hover {
+        background: transparent;
+      }
+      span {
+        font-size: 13px;
+        letter-spacing: 0;
+        font-weight: 600;
+        text-transform: capitalize;
+        transition: all 0.3s ease 0s;
+      }
+    }
+    .btnBlue {
+      color: #fff;
+      border-color: #1ca8ee;
+      background: #1ca8ee;
+      &:hover {
+        color: #1ca8ee;
+      }
+    }
+    .btnSky {
+      color: #fff;
+      border-color: #ffc843;
+      background: #ffc843;
+      &:hover {
+        color: #ffc843;
+      }
+    }
+    .btnFB {
+      color: #fff;
+      border-color: #3B5998;
+      background: #3B5998;
+      &:hover {
+        color: #3B5998;
+      }
+      i{
+        margin-right: 10px;
+      }
+    }
+    .btnTWT {
+      color: #fff;
+      border-color: #55ACEE;
+      background: #55ACEE;
+      &:hover {
+        color: #55ACEE;
+      }
+      i{
+        margin-right: 10px;
+      }
+    }
+    .mb3 {
+      margin-bottom: 17px;
+    }
+    .mt1{
+      margin-top: 5px;
+    }
+    .mt2{
+      margin-top: 10px;
+    }
+    .mt3{
+      margin-top: 20px;
+    }
+    .mt4{
+      margin-top: 25px;
+    }
+    .mt5{
+      margin-top: 30px;
+    }
+    .mt6{
+      margin-top: 35px;
+    }
+    .mt8 {
+      margin-top: 40px;
+    }
+    .mr1{
+      margin-right: 5px;
+    }
+    .mr2{
+      margin-right: 10px;
+    }
+    .mr3{
+      margin-right: 20px;
+    }
+    .mr4{
+      margin-right: 25px;
+    }
+    .mr5{
+      margin-right: 30px;
+    }
+
+    //padding
+    .pl0{
+      padding-left: 0!important;
+    }
+    .pr0{
+      padding-right: 0!important;
+    }
+  }
+
+  p {
+    font-family: 'Hind Vadodara', sans-serif !important;
+    margin-bottom: 0 !important;
+    color: #666;
+  }
+
+  .container {
+    max-width: 1270px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .inputStyle {
+      width: 100%;
+      margin-bottom: 5px;
+      padding-bottom: 15px;
+
+      &:focus {
+        outline: none;
+      }
+      div {
+        &::before {
+          border: 1px solid #e5e5e5;
+        }
+
+        input{
+          height: unset;
+        }
+        .showPassword {
+          button {
+            width: 50px;
+            height: 50px;
+
+            img {
+              height: 25px;
+            }
+          }
+        }
+      }
+
+      fieldset {
+        border-radius: 0px;
+        border: 1px solid #e9e9e9;
+      }
+
+      p {
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        font-size: 12px;
+        line-height: 18px;
+        color: red !important;
+      }
+    }
+    .inputStyleBasic {
+      width: 100%;
+      z-index: 1;
+      textarea {
+        padding-top: 20px;
+      }
+      input,
+      textarea {
+        height: 60px;
+        width: 100%;
+        padding-left: 15px;
+        border: 1px solid #eeedff;
+      }
+      > div {
+        margin-top: 26px;
+        padding: 0;
+        &:before,
+        &:hover:before {
+          border: none !important;
+        }
+      }
+      label {
+        font-family: Hind Vadodara;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #666666;
+        transform: none;
+      }
+    }
+    h4.section-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: #444444;
+    }
+    .tableWrapper {
+      overflow-y: auto;
+    }
+  }
+  .mainBody {
+    margin-top: -230px;
+    margin-bottom: 100px;
+    @media (min-width: 992px) and (max-width: 1200px) {
+      margin-bottom: 90px;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      margin-bottom: 80px;
+    }
+    @media (max-width: 767px) {
+      margin-bottom: 70px;
+    }
+  }
+
+  //padding classes
+  @media (max-width: 500px) {
+    .p-xs-0{
+      padding: 0!important;
+    }
+  }
+
+  .dateTd{
+    min-width: 150px;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+
+}

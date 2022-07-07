@@ -1,0 +1,205 @@
+.buyCoinWrapper {
+  margin-top: -230px;
+  margin-bottom: 100px;
+  @media (max-width: 767px) {
+    margin-bottom: 70px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 80px;
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    margin-bottom: 90px;
+  }
+  .section-title {
+    margin-bottom: 10px;
+    color: #666666 !important;
+  }
+  .buyCoinSection {
+    background: #fff;
+    padding: 44px 80px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.04);
+    @media (max-width: 991px) {
+      padding: 44px 30px;
+    }
+    @media (max-width: 767px) {
+        padding: 40px 15px;
+    }
+  }
+  .buyCoinHead {
+    padding: 0 0 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #9c9c9c;
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 29px;
+      color: #666666;
+    }
+  }
+  .buyCoinBody {
+    &.twoColumnInput {
+      .coinAmount {
+        display: inline-block;
+        width: 49%;
+        @media (max-width: 500px) {
+            width: 100%;
+        }
+      }
+    }
+    .coinAmount {
+      margin-bottom: 10px;
+      .inputStyleBasic {
+        width: 99% !important;
+        margin-right: 1%;
+      }
+    }
+    .subTitle {
+      color: #666666 !important;
+      display: block;
+      margin-bottom: 8px;
+      font-family: Hind Vadodara;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+    }
+    .paymentType {
+      .uploadReciept {
+        height: 100px;
+        width: 235px;
+        background: #f6f5ff;
+        border: 1px dashed #d7d5ff;
+        box-sizing: border-box;
+        border-radius: 1px;
+        position: relative;
+        h5 {
+          text-transform: none;
+          font-size: 14px;
+        }
+        input {
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 1;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          cursor: pointer;
+        }
+      }
+      .formSubmitBtn {
+        margin-top: 20px;
+        width: 235px;
+      }
+    }
+  }
+  p.note {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    @media (max-width: 500px) {
+      margin-top: 10px;
+    }
+    a {
+      color: #6258fb;
+    }
+  }
+  .todayCoinRate {
+    margin: 15px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 0 75px;
+    box-shadow: 0px 0px 30px rgba(227, 227, 227, 0.42);
+    height: 75px;
+    @media (max-width: 767px) {
+        padding: 0 15px;
+    }
+    p {
+      font-family: Hind Vadodara;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 32px;
+      color: #666666;
+      @media (max-width: 767px) {
+          font-size: 14px;
+      }
+      span {
+        color: #6258fb;
+      }
+    }
+  }
+  .bankInfo {
+    margin: 15px 0 20px;
+    background: #ffffff;
+    padding: 30px 75px;
+    box-shadow: 0px 0px 30px rgba(227, 227, 227, 0.42);
+    @media (max-width: 767px) {
+      padding: 30px 15px;
+    }
+    h5 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: #666666 !important;
+      margin-bottom: 25px;
+    }
+    ul {
+      padding: 0;
+      li {
+        padding: 0;
+        margin-bottom: 35px;
+        overflow: hidden;
+        width: auto;
+        display: block;
+        font-family: Hind Vadodara;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #666666;
+        @media (max-width: 500px) {
+          font-size: 12px;
+          margin-bottom: 10px;
+        }
+        p {
+          float: right;
+          font-weight: 600;
+          width: 50%;
+          @media (max-width: 767px) {
+            font-size: 12px;
+          }
+          span {
+            margin-right: 30px;
+            @media (max-width: 500px) {
+              margin-right: 7px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .creditCardForm {
+    .subTitle {
+      margin-top: 15px;
+    }
+  }
+  .inputStyleBasic {
+    margin-top: 10px;
+  }
+}
+.twoColumnInput {
+  .inputStyleBasic {
+    width: 49% !important;
+    margin-right: 0.7%;
+    @media (max-width: 500px) {
+      width: 100% !important;
+    }
+  }
+}

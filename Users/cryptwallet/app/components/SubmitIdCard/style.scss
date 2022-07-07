@@ -1,0 +1,119 @@
+.rootDialog {
+  overflow-y: auto;
+  .scrollAble {
+    height: unset;
+    overflow-y: auto;
+    .modalPaper {
+      max-width: 750px;
+      max-height: 2000px;
+      width: 100%;
+      border-radius: 0;
+      padding: 60px;
+      background: transparent;
+      box-shadow: none;
+      @media (max-width: 767px) {
+        padding: 13px;
+        margin: 0;
+      }
+      .modalInner {
+        background: #fff;
+        box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.13),
+          0px 24px 38px 3px rgba(0, 0, 0, 0.07),
+          0px 9px 46px 8px rgba(0, 0, 0, 0.08);
+        .modalHeader {
+          padding: 0;
+          h6 {
+            padding: 16px 15px;
+            font-family: Hind Vadodara;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            color: #ffffff !important;
+            background: linear-gradient(360deg, rgba(98, 88, 251, 0.9) 0.75%, rgba(134, 126, 255, 0.9) 100%);
+            position: relative;
+          }
+          span {
+            position: absolute;
+            right: -11px;
+            top: -11px;
+            background: #fff;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            cursor: pointer;
+          }
+        }
+        .submitIdCardBody{
+          text-align: center;
+          padding: 70px 10px;
+          .multipleImgUpload{
+            .imageUpload{
+              width: 200px;
+              display: inline-block;
+              margin: 0 33px;
+              .imagePreview{
+                label{
+                  height: 128px;
+                  width: 100%;
+                  display: block;
+                  overflow: hidden;
+                  border: 1px dashed #DCD9FF;
+                  img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                  }
+                }
+              }
+            }
+            .uploadBtn{
+              margin-top: 20px;
+              background: #6258fb;
+              border-radius: 1px;
+              height: 55px;
+              line-height: 55px;
+              color: #fff;
+              left: 0;
+              width: 100%;
+              padding: 0;
+              text-transform: capitalize;
+              font-weight: 500;
+              font-family: Hind Vadodara;
+              position: relative;
+              margin-bottom: 10px;
+              input{
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                cursor: pointer;
+              }
+            }
+          }
+          .formSubmitBtn {
+            margin-top: 60px;
+            background: #6258fb;
+            border-radius: 1px;
+            height: 65px;
+            line-height: 65px;
+            color: #fff;
+            left: 0;
+            width: 207px;
+            padding: 0;
+            text-transform: capitalize;
+            font-weight: 700;
+            font-family: Hind Vadodara;
+          }
+        }
+      }
+    }
+  }
+  .backdropWrap {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+  }
+}

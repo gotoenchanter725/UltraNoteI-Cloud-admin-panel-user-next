@@ -1,0 +1,38 @@
+.qrResults {
+  form {
+    margin-top: 15px;
+    position: relative;
+    .addressInput {
+      width: 400px;
+      max-width: 100%;
+      @media (max-width: 767px) {
+        margin-bottom: 10px;
+      }
+      > div:before {
+        opacity: 0;
+      }
+      input {
+        color: #444;
+        height: 60px;
+        padding: 0 10px;
+        background: #eeedff;
+      }
+    }
+    button {
+      background: #6258fb;
+      border-radius: 1px;
+      height: 60px;
+      line-height: 61px;
+      color: #fff;
+      left: 0;
+      width: 90px;
+      padding: 0;
+      text-transform: capitalize;
+      font-weight: 700;
+      font-family: Hind Vadodara;
+      &:hover{
+        background: #493ae6;
+      }
+    }
+  }
+}

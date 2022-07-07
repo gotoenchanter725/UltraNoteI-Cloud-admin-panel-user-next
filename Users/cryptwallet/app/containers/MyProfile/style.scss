@@ -1,0 +1,96 @@
+.myProfileWrapper {
+  margin-top: -230px;
+  margin-bottom: 100px;
+  @media (min-width: 992px) and (max-width: 1200px) {
+    margin-bottom: 90px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 80px;
+  }
+  @media (max-width: 767px) {
+    margin-bottom: 70px;
+  }
+}
+.tabsBar {
+  -webkit-box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  box-shadow: none!important;
+  background: #fff!important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.tabsContent {
+  > div {
+    background: #fff;
+    padding: 44px 100px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.04);
+    @media (max-width: 991px) {
+      padding: 30px 15px;
+    }
+  }
+}
+.tabsWrapper {
+  > div > div > span {
+    height: 3px;
+    background: #6258fb;
+  }
+  button {
+    padding: 46px 17px;
+    width: auto;
+    min-width: auto;
+    @media (min-width: 992px) and (max-width: 1200px) {
+      padding: 20px 12px;
+    }
+    @media (min-width: 1201px) and (max-width: 1599px) {
+      padding: 30px 15px;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      padding: 15px 12px;
+    }
+    @media (max-width: 767px) {
+      padding: 11px 12px;
+    }
+    @media (max-width: 1200px) {
+      width: auto;
+      min-width: auto;
+      min-height: auto;
+    }
+    > span {
+      display: block;
+      width: auto;
+      img {
+        float: left;
+        margin-right: 11px;
+        max-width: 18px;
+        @media (max-width: 767px) {
+          max-width: 14px;
+          margin-top: 6px;
+          margin-right: 7px;
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+          max-width: 14px;
+          margin-top: 6px;
+          margin-right: 7px;
+        }
+      }
+      > span {
+        padding: 0;
+        span {
+          color: #444;
+          font-family: Hind Vadodara;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 19px;
+          line-height: 15px;
+          text-transform: capitalize;
+          letter-spacing: 0;
+          @media (max-width: 767px) {
+              font-size: 14px;
+          }
+          @media (min-width: 768px) and (max-width: 991px) {
+              font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
